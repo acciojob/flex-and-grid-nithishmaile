@@ -10,7 +10,7 @@ body{
 	padding:0px 20px 0px 20px ;
 	background-color:#E5E5E5;
 }
-.card-container{
+.cards-wrapper{
 	display:grid;
 	grid-template-columns:repeat(3,1fr);
 	grid-template-rows:1;
@@ -22,7 +22,7 @@ h1{
 p{
 	font-size:0.75em;
 }
-.cards{
+.card{
 	display:flex;
 	flex-direction:column;
 	background-color:#fafafa;
